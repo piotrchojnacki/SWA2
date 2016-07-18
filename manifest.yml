@@ -1,0 +1,6 @@
+applications:
+- name: SWA2
+  memory: 64M
+  services:
+    rabbitmq-sinatra:
+      type: rabbitmq
